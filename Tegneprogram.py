@@ -27,9 +27,6 @@ class DrawingApp:
         self.current_segment = []
 
         # Add buttons for changing tools, size, and undo
-        # Add buttons for changing tools
-
-        # Add buttons for changing tools and size
         self.pencil_button = tk.Button(
             root, text="Pencil", command=self.use_pencil)
         self.pencil_button.pack(side=tk.LEFT)
